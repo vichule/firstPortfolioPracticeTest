@@ -86,7 +86,33 @@ body {
   margin: 50px 80px 50px 0;
 }
 
+.second {
+  background: url(resources/laptop1.jpg) center center;
+  background-size: cover;
+  height: 450px; 
+}
 
+.second .container {
+  position: relative;
+  top: 130px;
+  float: left;
+  margin-left: 50px;
+}
+
+.second h2 {
+  color: #fff;
+  text-align: left; 
+}
+
+.second p {
+  color: #fff; 
+  text-align: left; 
+}
+
+.second .btn {
+  margin: 10px 0 0;
+  float: right; 
+}
 
 
 .footer { 
@@ -101,4 +127,12 @@ body {
   height: 80px; 
   line-height: 80px;
   margin: 0;  
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
 }
