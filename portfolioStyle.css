@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 920px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(resources/sky.jpg) no-repeat center center; 
+  background-size: cover;
+  height: 600px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 150px;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 65px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: Georgia;
+   
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  font-family: Georgia;
+  margin-bottom: 40px;
+  margin-top: 0;
+  letter-spacing: 8px;
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+  margin-left: 250px;
+  font-size: larger;
+  font-family: Helvetica;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: hotpink;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+
+
+
+.footer { 
+  background: #000;
+  height: 40px; 
+  padding-bottom: 50px;
+}
+
+.footer p { 
+  color: #fff;
+  font-size: 14px;  
+  height: 80px; 
+  line-height: 80px;
+  margin: 0;  
+}
